@@ -37,15 +37,14 @@
     <section class="home">
         <div class="home__container container">
 
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-
+                <div class="swiper swiper--home">
+                    <div class="swiper-wrapper swiper-wrapper--home">
                         <div class="swiper-slide">
                         <h1 class="slider__title">Новые поступления <br> в этом сезоне</h1>
                         <p class="slider__text">Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.</p>
                         <div class="slider__buttons">
                             <a href="#" class="slider__button-arrow"><img class="slider__button-arrowimg" src="./img/main/arrow-down.svg" alt="arrow-down"></a>
-                            <a href="#" class="slider__button">Открыть магазин</a>
+                            <a href="#" class="slider__button button">Открыть магазин</a>
                         </div>
                         </div>
                         <div class="swiper-slide">
@@ -53,7 +52,7 @@
                             <p class="slider__text">Надоело искать себя в сером городе? Настало время новых идей, свежих красок и вдохновения с Womazing!</p>
                             <div class="slider__buttons">
                             <a href="#" class="slider__button-arrow"><img class="slider__button-arrowimg" src="./img/main/arrow-down.svg" alt="arrow-down"></a>
-                            <a href="#" class="slider__button">Открыть магазин</a>
+                            <a href="#" class="slider__button button">Открыть магазин</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -61,7 +60,7 @@
                         <p class="slider__text">Мы обновили ассортимент - легендарные коллекции и новинки от отечественных дизайнеров.</p>
                         <div class="slider__buttons">
                             <a href="#" class="slider__button-arrow"><img class="slider__button-arrowimg" src="./img/main/arrow-down.svg" alt="arrow-down"></a>
-                            <a href="#" class="slider__button">Открыть магазин</a>
+                            <a href="#" class="slider__button button">Открыть магазин</a>
                         </div>
                         </div>
                     </div>
@@ -77,9 +76,138 @@
 
         </div>
     </section>
-    
 
+    <section class="collection">
+        <div class="collection__container container">
+            <h2 class="collection__title title">Новая коллекция</h2>
+            <div class="collection__cards">
+                <div class="collection__card">
+                    <div class="collection__card-image">
+                        <img src="./img/collection/3.jpg" alt="card-img">
+                    </div>
+
+                    <p class="collection__card-title">Футболка USA</p>
+                    <p class="collection__card-text"><span>$229</span> $129</p>
+                </div>
+                <div class="collection__card">
+                    <div class="collection__card-image">
+                        <img src="./img/collection/2.jpg" alt="card-img">
+                    </div>
+                    <p class="collection__card-title">Купальник Glow</p>
+                    <p class="collection__card-text">$129</p>
+                </div>
+                <div class="collection__card">
+                    <div class="collection__card-image">
+                        <img src="./img/collection/1.jpg" alt="card-img">
+                    </div>
+                    <p class="collection__card-title">Свитшот Sweet Shot</p>
+                    <p class="collection__card-text">$129</p>
+                </div>
+            </div>
+            <a href="#" class="collection__button button">Открыть магазин</a>
+        </div>
+    </section>
     
+    <section class="important">
+        <div class="important__container container">
+            <h2 class="important__title title">Что для нас важно</h2>
+            <div class="important__cards">
+                <div class="important__card">
+                    <img src="./img/important/quality.svg" alt="icon" class="important__card-icon">
+                    <p class="important__card-title">Качество</p>
+                    <p class="important__card-text">Наши профессионалы работают на лучшем оборудовании для пошива одежды беспрецедентного качества</p>
+                </div>
+                <div class="important__card">
+                    <img src="./img/important/fast.svg" alt="icon" class="important__card-icon">
+                    <p class="important__card-title">Скорость</p>
+                    <p class="important__card-text">Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц продукции в наших собственных цехах</p>
+                </div>
+                <div class="important__card">
+                    <img src="./img/important/hand.svg" alt="icon" class="important__card-icon">
+                    <p class="important__card-title">Ответственность</p>
+                    <p class="important__card-text">Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда - все это Womazing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="team__container container">
+            <h2 class="team__title title">Команда мечты Womazing</h2>
+            <div class="team__content">
+                <!-- Slider main container -->
+                <div class="swiper swiper--team">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img src="./img/team/1.jpg" alt="slide1"></div>
+                        <div class="swiper-slide"><img src="./img/team/2.jpg" alt="slide2"></div>
+                        <div class="swiper-slide"><img src="./img/team/3.jpg" alt="slide3"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+                
+                <div class="team__about">
+                    <h3 class="team__about-title">Для каждой</h3>
+                    <p class="team__about-text">Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.</p>
+                    <p class="team__about-text">Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.</p>
+                    <a href="#" class="team__about-link">Подробнее о бренде</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__head">
+                <a href="#" class="footer__logo"><img src="./img/main/logo.svg" alt="logo"></a>
+                <nav class="nav">
+                    <ul class="nav__menu">
+                        <li class="nav__menu-item"><a href="#" class="nav__menu-link">Главная</a></li>
+                        <li class="nav__menu-item"><a href="#" class="nav__menu-link">Магазин</a></li>
+                        <li class="nav__menu-item"><a href="#" class="nav__menu-link">О бренде</a></li>
+                        <li class="nav__menu-item"><a href="#" class="nav__menu-link">Контакты</a></li>
+                    </ul>
+    
+                </nav>
+                <div class="footer__other">
+                    <a href="" class="footer__phone-link">+7 (495) 823-54-12</a>
+                    <a href="" class="footer__enail-link">hello@womazing.com</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-text">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">© Все права защищены</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Политика конфиденциальности</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Публичная оферта</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Пальто</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Свитшоты</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Кардиганы</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Толстовки</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <div class="footer__icons">
+                        <a href="#" class="footer__icon"><img src="./img/footer/instagram.svg" alt="instagram" class="footer__icon-img"></a>
+                        <a href="#" class="footer__icon"><img src="./img/footer/facebook.svg" alt="facebook" class="footer__icon-img"></a>
+                        <a href="#" class="footer__icon"><img src="./img/footer/twitter.svg" alt="twitter" class="footer__icon-img"></a>
+                    </div>
+                    <img class="footer__social-image" src="./img/footer/visa-mastercard.png" alt="card">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
