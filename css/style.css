@@ -101,7 +101,7 @@ img{
 }
 .popup__close {
     position: absolute;
-    background-image: url(/img/popup/close.svg);
+    background-image: url(../img/popup/close.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
