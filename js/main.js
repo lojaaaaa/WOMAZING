@@ -45,7 +45,18 @@ const popup = document.querySelectorAll('.popup')
 const form = document.querySelectorAll('.popup__form')
 
 const contactsForm = document.querySelector('.writeus__form')
+
+
+const burgerButtons = document.querySelectorAll('.header__burger')
 console.log(popup)
+
+
+burgerButtons.forEach(function(burgerButton, burgerButtonIndex){
+  burgerButton.addEventListener('click', ()=>{
+    burgerButton.classList.toggle('header__burger--active')
+  })
+})
+
 
 popupOpen.forEach(function(openItem, openIndex){
   openItem.addEventListener('click', () =>{

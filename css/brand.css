@@ -53,3 +53,19 @@
     }
 
 }
+
+@media(max-width: 550px){
+    .brand__title{
+        padding-top: 65px;
+    }
+    .brand__content{
+        gap: 35px;
+        margin-bottom: 45px;
+    }
+    .brand__text{
+        font-size: 15px;
+    }
+    .brand {
+        margin-bottom: 65px;
+    }
+}

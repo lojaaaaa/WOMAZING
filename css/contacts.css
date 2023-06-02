@@ -91,6 +91,7 @@
     .writeus__form-input, .writeus__form-text{
         width: 100%;
     }
+
     
 }
 
@@ -99,7 +100,9 @@
         flex-direction: column;
     }
     .info__card-title {
-
         margin-bottom: 10px;
+    }
+    .map, .info, .writeus{
+        margin-bottom: 65px;
     }
 }
