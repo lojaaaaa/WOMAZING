@@ -54,6 +54,10 @@ console.log(popup)
 burgerButtons.forEach(function(burgerButton, burgerButtonIndex){
   burgerButton.addEventListener('click', ()=>{
     burgerButton.classList.toggle('header__burger--active')
+    const nav = document.querySelectorAll('.header__nav')
+    nav.forEach(function(navItem){
+      navItem.classList.toggle('header__nav--active')
+    })
   })
 })
 
